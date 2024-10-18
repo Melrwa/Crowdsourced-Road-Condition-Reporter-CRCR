@@ -24,7 +24,7 @@ A simple web app that allows users to report and view road conditions. Users can
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/road-condition-reporter.git
+    git clone https://github.com/Melrwa/Crowdsourced-Road-Condition-Reporter-CRCR.git
     ```
 
 2. Run JSON Server:
