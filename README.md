@@ -1,4 +1,4 @@
-# Crowdsourced-Road-Condition-Reporter-CRCR$
+# Crowdsourced-Road-Condition-Reporter-CRCR
 
 A simple web app that allows users to report and view road conditions. Users can submit new reports, upvote/downvote, and search/filter reports by location, traffic, or status.
 
