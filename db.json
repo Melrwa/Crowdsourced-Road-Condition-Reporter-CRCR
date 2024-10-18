@@ -1,26 +1,14 @@
 {
   "roads": [
     {
-      "id": "c68a",
-      "name": "Waiyaki Way ",
-      "location": "Thika ",
-      "trafficCondition": "Medium",
-      "weatherCondition": "Wet and Slippery",
-      "status": "Good",
-      "upvotes": 8,
-      "downvotes": 3,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146576/WhatsApp_Image_2024-10-17_at_9.27.43_AM_zpcs29.jpg",
-      "date": "2024-10-17T20:05:37.488Z"
-    },
-    {
       "id": "979a",
       "name": "Jogoo Road ",
       "location": "BuruBuru",
       "trafficCondition": "Medium",
       "weatherCondition": "Dry and Clear",
       "status": "Good",
-      "upvotes": 10,
-      "downvotes": 4,
+      "upvotes": 11,
+      "downvotes": 3,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
       "date": "2024-10-17T20:09:59.819Z"
     },
@@ -59,6 +47,42 @@
       "downvotes": 0,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729222910/ken_blog_newnairobi_m9iKN_eikyk9.jpg",
       "date": "2024-10-18T04:50:27.837Z"
+    },
+    {
+      "id": "4fee",
+      "name": "Ngong Road ",
+      "location": "Ngong ",
+      "trafficCondition": "Light",
+      "weatherCondition": "Flooded",
+      "status": "Bad",
+      "upvotes": 0,
+      "downvotes": 10,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
+      "date": "2024-10-18T07:55:07.964Z"
+    },
+    {
+      "id": "7db5",
+      "name": "Utawala ",
+      "location": "South Eastern Nairobi",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Good",
+      "upvotes": 16,
+      "downvotes": 2,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
+      "date": "2024-10-18T08:11:44.035Z"
+    },
+    {
+      "id": "609b",
+      "name": "Gesora Road",
+      "location": "Utawala",
+      "trafficCondition": "Light",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 5,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_2_madpmt.jpg",
+      "date": "2024-10-18T09:38:49.962Z"
     }
   ]
 }
