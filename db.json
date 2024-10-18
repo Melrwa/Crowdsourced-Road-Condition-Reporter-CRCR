@@ -1,88 +1,100 @@
 {
   "roads": [
     {
-      "id": "979a",
-      "name": "Jogoo Road ",
-      "location": "BuruBuru",
-      "trafficCondition": "Medium",
-      "weatherCondition": "Dry and Clear",
-      "status": "Good",
-      "upvotes": 11,
-      "downvotes": 3,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
-      "date": "2024-10-17T20:09:59.819Z"
-    },
-    {
-      "id": "a977",
-      "name": "Waruru Road ",
-      "location": "Kiambu ",
-      "trafficCondition": "Heavy",
-      "weatherCondition": "Dry and Clear",
-      "status": "Bad",
-      "upvotes": 8,
-      "downvotes": 22,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
-      "date": "2024-10-17T20:15:24.435Z"
-    },
-    {
-      "id": "758c",
-      "name": "Mombasa Road",
-      "location": "South C ",
-      "trafficCondition": "Light",
-      "weatherCondition": "Dry and Clear",
-      "status": "Bad",
-      "upvotes": 3,
-      "downvotes": 3,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
-      "date": "2024-10-18T03:36:08.185Z"
-    },
-    {
-      "id": "68ba",
-      "name": "Thika Road",
-      "location": "Thika",
-      "trafficCondition": "Medium",
-      "weatherCondition": "Wet and Slippery",
-      "status": "Good",
-      "upvotes": 7,
-      "downvotes": 0,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729222910/ken_blog_newnairobi_m9iKN_eikyk9.jpg",
-      "date": "2024-10-18T04:50:27.837Z"
-    },
-    {
-      "id": "4fee",
+      "id": "8198",
       "name": "Ngong Road ",
-      "location": "Ngong ",
-      "trafficCondition": "Light",
-      "weatherCondition": "Flooded",
-      "status": "Bad",
-      "upvotes": 0,
-      "downvotes": 10,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
-      "date": "2024-10-18T07:55:07.964Z"
-    },
-    {
-      "id": "7db5",
-      "name": "Utawala ",
-      "location": "South Eastern Nairobi",
-      "trafficCondition": "Medium",
-      "weatherCondition": "Wet and Slippery",
-      "status": "Good",
-      "upvotes": 16,
-      "downvotes": 2,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
-      "date": "2024-10-18T08:11:44.035Z"
-    },
-    {
-      "id": "609b",
-      "name": "Gesora Road",
-      "location": "Utawala",
+      "location": "Kilimani",
       "trafficCondition": "Light",
       "weatherCondition": "Dry and Clear",
       "status": "Good",
       "upvotes": 5,
       "downvotes": 0,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_2_madpmt.jpg",
-      "date": "2024-10-18T09:38:49.962Z"
+      "date": "2024-10-18T09:59:29.013Z"
+    },
+    {
+      "id": "a65f",
+      "name": "Mombasa Road ",
+      "location": "South C ",
+      "trafficCondition": "Light",
+      "weatherCondition": "Flooded",
+      "status": "Bad",
+      "upvotes": 0,
+      "downvotes": 7,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
+      "date": "2024-10-18T10:00:53.257Z"
+    },
+    {
+      "id": "2322",
+      "name": "Thika Highway ",
+      "location": "Thika",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Good",
+      "upvotes": 10,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235974/New-Project-copy-og_image_kzbjqw.webp",
+      "date": "2024-10-18T10:06:45.671Z"
+    },
+    {
+      "id": "c507",
+      "name": "Gesora Road",
+      "location": "Utawala",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 3,
+      "downvotes": 2,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/download_ai3ksy.jpg",
+      "date": "2024-10-18T11:02:59.239Z"
+    },
+    {
+      "id": "ff17",
+      "name": "Jogoo Raod ",
+      "location": "Bururburu ",
+      "trafficCondition": "Heavy",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Good",
+      "upvotes": 9,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235990/xfebd3pbb4581_uu9zox.jpg",
+      "date": "2024-10-18T11:05:04.678Z"
+    },
+    {
+      "id": "a155",
+      "name": "Outer Ring Road ",
+      "location": "City Center",
+      "trafficCondition": "Heavy",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Bad",
+      "upvotes": 0,
+      "downvotes": 7,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729249677/images_gjfsba.jpg",
+      "date": "2024-10-18T11:11:59.740Z"
+    },
+    {
+      "id": "dc45",
+      "name": "Express way",
+      "location": "Mlolongo",
+      "trafficCondition": "Light",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 24,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235973/A-section-of-Mombasa-Road_bvdwln.jpg",
+      "date": "2024-10-18T11:44:52.645Z"
+    },
+    {
+      "id": "7916",
+      "name": "Waiyaki way ",
+      "location": "CBD",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 5,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729252232/download_cjbca8.jpg",
+      "date": "2024-10-18T11:53:15.274Z"
     }
   ]
 }

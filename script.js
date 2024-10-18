@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     roadContainer.innerHTML = ''; // Clear previous results
 
     // Sort by date (newest first)
-    roads.sort((a, b) => new Date(b.date) - new Date(a.date));
+    roads.sort((a, b) => new Date(a.date) - new Date(b.date));
 
     // Display each road
     roads.forEach(road => displayRoad(road));
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <button class="upvote" data-id="${road.id}">Upvote</button>
       <button class="downvote" data-id="${road.id}">Downvote</button>
       <button class="delete" data-id="${road.id}">Delete</button>
-      <small>Reported on: ${new Date(road.date).toLocaleString()}</small>
+      <small>Reported on: ${new Date(road.date).toLocaleString('en-GB', { hour12: false })}</small>
     `;
 
     roadContainer.prepend(roadDiv); // Newer roads appear on top
