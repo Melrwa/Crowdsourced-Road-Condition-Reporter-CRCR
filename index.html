@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Condition Reporter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 id="main-heading">Nairobi Coounty Road Condition Reporter</h1>
+    <button id="theme-toggle">Switch to Dark Theme</button>
+
+    <div class="container">
+        <!-- Form to submit new road condition -->
+        <div class="form-container">
+            <h2>Report a Road Condition</h2>
+            <form id="road-form">
+                <input type="text" id="roadName" placeholder="Road Name" required>
+                <input type="text" id="roadLocation" placeholder="Road Location" required>
+                <input type="url" id="roadImage" placeholder="Road Image URL" required>
+                <select id="trafficCondition" required>
+                    <option value="">Select Traffic Condition</option>
+                    <option value="Heavy">Heavy Traffic</option>
+                    <option value="Medium">Medium Traffic</option>
+                    <option value="Light">Light Traffic</option>
+                </select>
+                <select id="weatherCondition" required>
+                    <option value="">Select Weather Condition</option>
+                    <option value="Dry and Clear">Dry and Clear</option>
+                    <option value="Wet and Slippery">Wet and Slippery</option>
+                    <option value="Flooded">Flooded</option>
+                </select>
+                <button type="submit">Submit Report</button>
+            </form>
+        </div>
+
+        <!-- Search and Filter Controls -->
+        <div class="filter-container">
+            <h3 id="Search">Search and Filter Roads</h3>
+            <input type="text" id="searchInput" placeholder="Search by Name, Location, or Status">
+            <select id="trafficFilter">
+                <option value="">Filter by Traffic Level</option>
+                <option value="Heavy">Heavy Traffic</option>
+                <option value="Medium">Medium Traffic</option>
+                <option value="Light">Light Traffic</option>
+            </select>
+        </div>
+
+        <!-- Container to display road reports -->
+        <div id="roads-list">
+            <!-- Road reports will be populated here -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "roads": [
+    {
+      "id": "c68a",
+      "name": "Waiyaki Way ",
+      "location": "Thika ",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Good",
+      "upvotes": 8,
+      "downvotes": 3,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146576/WhatsApp_Image_2024-10-17_at_9.27.43_AM_zpcs29.jpg",
+      "date": "2024-10-17T20:05:37.488Z"
+    },
+    {
+      "id": "979a",
+      "name": "Jogoo Road ",
+      "location": "BuruBuru",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 10,
+      "downvotes": 4,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
+      "date": "2024-10-17T20:09:59.819Z"
+    },
+    {
+      "id": "a977",
+      "name": "Waruru Road ",
+      "location": "Kiambu ",
+      "trafficCondition": "Heavy",
+      "weatherCondition": "Dry and Clear",
+      "status": "Bad",
+      "upvotes": 8,
+      "downvotes": 22,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
+      "date": "2024-10-17T20:15:24.435Z"
+    },
+    {
+      "id": "758c",
+      "name": "Mombasa Road",
+      "location": "South C ",
+      "trafficCondition": "Light",
+      "weatherCondition": "Dry and Clear",
+      "status": "Bad",
+      "upvotes": 3,
+      "downvotes": 3,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729146110/WhatsApp_Image_2024-10-17_at_9.14.53_AM_sykr5s.jpg",
+      "date": "2024-10-18T03:36:08.185Z"
+    },
+    {
+      "id": "68ba",
+      "name": "Thika Road",
+      "location": "Thika",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Wet and Slippery",
+      "status": "Good",
+      "upvotes": 7,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729222910/ken_blog_newnairobi_m9iKN_eikyk9.jpg",
+      "date": "2024-10-18T04:50:27.837Z"
+    }
+  ]
+}
