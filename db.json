@@ -54,9 +54,9 @@
       "location": "Bururburu ",
       "trafficCondition": "Heavy",
       "weatherCondition": "Wet and Slippery",
-      "status": "Good",
-      "upvotes": 9,
-      "downvotes": 0,
+      "status": "Bad",
+      "upvotes": 0,
+      "downvotes": 9,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235990/xfebd3pbb4581_uu9zox.jpg",
       "date": "2024-10-18T11:05:04.678Z"
     },
