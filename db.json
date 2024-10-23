@@ -1,18 +1,6 @@
 {
   "roads": [
     {
-      "id": "8198",
-      "name": "Ngong Road ",
-      "location": "Kilimani",
-      "trafficCondition": "Light",
-      "weatherCondition": "Dry and Clear",
-      "status": "Good",
-      "upvotes": 5,
-      "downvotes": 0,
-      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_2_madpmt.jpg",
-      "date": "2024-10-18T09:59:29.013Z"
-    },
-    {
       "id": "a65f",
       "name": "Mombasa Road ",
       "location": "South C ",
@@ -20,7 +8,7 @@
       "weatherCondition": "Flooded",
       "status": "Bad",
       "upvotes": 0,
-      "downvotes": 7,
+      "downvotes": 14,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
       "date": "2024-10-18T10:00:53.257Z"
     },
@@ -42,9 +30,9 @@
       "location": "Utawala",
       "trafficCondition": "Medium",
       "weatherCondition": "Dry and Clear",
-      "status": "Good",
+      "status": "Bad",
       "upvotes": 3,
-      "downvotes": 2,
+      "downvotes": 8,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/download_ai3ksy.jpg",
       "date": "2024-10-18T11:02:59.239Z"
     },
@@ -56,7 +44,7 @@
       "weatherCondition": "Wet and Slippery",
       "status": "Bad",
       "upvotes": 0,
-      "downvotes": 9,
+      "downvotes": 10,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235990/xfebd3pbb4581_uu9zox.jpg",
       "date": "2024-10-18T11:05:04.678Z"
     },
@@ -66,9 +54,9 @@
       "location": "City Center",
       "trafficCondition": "Heavy",
       "weatherCondition": "Wet and Slippery",
-      "status": "Bad",
-      "upvotes": 0,
-      "downvotes": 7,
+      "status": "Good",
+      "upvotes": 6,
+      "downvotes": 1,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729249677/images_gjfsba.jpg",
       "date": "2024-10-18T11:11:59.740Z"
     },
@@ -78,9 +66,9 @@
       "location": "Mlolongo",
       "trafficCondition": "Light",
       "weatherCondition": "Dry and Clear",
-      "status": "Good",
-      "upvotes": 24,
-      "downvotes": 0,
+      "status": "Bad",
+      "upvotes": 9,
+      "downvotes": 15,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235973/A-section-of-Mombasa-Road_bvdwln.jpg",
       "date": "2024-10-18T11:44:52.645Z"
     },
@@ -90,11 +78,47 @@
       "location": "CBD",
       "trafficCondition": "Medium",
       "weatherCondition": "Dry and Clear",
-      "status": "Good",
-      "upvotes": 5,
-      "downvotes": 0,
+      "status": "Bad",
+      "upvotes": 3,
+      "downvotes": 10,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729252232/download_cjbca8.jpg",
       "date": "2024-10-18T11:53:15.274Z"
+    },
+    {
+      "id": "57d5",
+      "name": "Ngong Road ",
+      "location": "Kilimani",
+      "trafficCondition": "Medium",
+      "weatherCondition": "Flooded",
+      "status": "Bad",
+      "upvotes": 3,
+      "downvotes": 7,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
+      "date": "2024-10-19T09:45:23.594Z"
+    },
+    {
+      "id": "ab6c",
+      "name": "Express way",
+      "location": "Westy",
+      "trafficCondition": "Light",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 57,
+      "downvotes": 13,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729249678/images_4_pxdvf6.jpg",
+      "date": "2024-10-19T10:39:34.675Z"
+    },
+    {
+      "id": "145d",
+      "name": "nyali bridge ",
+      "location": "mombasa",
+      "trafficCondition": "Heavy",
+      "weatherCondition": "Dry and Clear",
+      "status": "Good",
+      "upvotes": 3,
+      "downvotes": 2,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729249677/images_3_xcgfjf.jpg",
+      "date": "2024-10-23T15:24:38.027Z"
     }
   ]
 }
