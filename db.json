@@ -126,9 +126,9 @@
       "location": "Utawala",
       "trafficCondition": "Heavy",
       "weatherCondition": "Dry and Clear",
-      "status": "Unknown",
+      "status": "Bad",
       "upvotes": 0,
-      "downvotes": 0,
+      "downvotes": 7,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
       "date": "2024-10-23T15:29:05.632Z"
     }

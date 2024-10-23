@@ -1,3 +1,66 @@
+let auth0 = null; // Global variable for Auth0 client
+
+// Initialize the Auth0 client
+const initAuth0 = async () => {
+  auth0 = await createAuth0Client({
+    domain: 'dev-otmijyoitiphecce.eu.auth0.com',
+    client_id: 'Ek7z8cPgKHVIt4BZHcPGk7oyRxLjt6Lx',
+    cacheLocation: 'localstorage', // Optional for session persistence
+  });
+
+  // Handle login callback if redirected after authentication
+  if (window.location.search.includes('code=')) {
+    await auth0.handleRedirectCallback();
+    window.history.replaceState({}, document.title, '/'); // Clean up URL after redirect
+  }
+
+  // Check if the user is already authenticated
+  const isAuthenticated = await auth0.isAuthenticated();
+  if (!isAuthenticated) {
+    // Show login and sign-up buttons if not authenticated
+    document.getElementById('login').style.display = 'block';
+    document.getElementById('signup').style.display = 'block';
+  } else {
+    // Show logout button if authenticated
+    document.getElementById('logout').style.display = 'block';
+    loadPageContent(); // Load the page content only if authenticated
+  }
+};
+
+// Call initAuth0 when the window loads
+window.onload = () => {
+  initAuth0();
+};
+
+// Log in when the login button is clicked
+document.getElementById('login').addEventListener('click', async () => {
+  await auth0.loginWithRedirect({
+    redirect_uri: window.location.origin
+  });
+});
+
+// Sign up when the signup button is clicked
+document.getElementById('signup').addEventListener('click', async () => {
+  await auth0.loginWithRedirect({
+    redirect_uri: window.location.origin,
+    screen_hint: 'signup'  // This tells Auth0 to show the signup form
+  });
+});
+
+// Log out when the logout button is clicked
+document.getElementById('logout').addEventListener('click', () => {
+  auth0.logout({
+    returnTo: window.location.origin
+  });
+});
+
+// Load the main page content after authentication
+const loadPageContent = async () => {
+  const user = await auth0.getUser();
+  document.getElementById('profile').textContent = JSON.stringify(user);
+
+  // Fetch and display road reports or other content for logged-in users
+};
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('road-form');
