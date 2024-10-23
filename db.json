@@ -119,6 +119,18 @@
       "downvotes": 2,
       "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729249677/images_3_xcgfjf.jpg",
       "date": "2024-10-23T15:24:38.027Z"
+    },
+    {
+      "id": "b66e",
+      "name": "Thika Highway ",
+      "location": "Utawala",
+      "trafficCondition": "Heavy",
+      "weatherCondition": "Dry and Clear",
+      "status": "Unknown",
+      "upvotes": 0,
+      "downvotes": 0,
+      "image": "https://res.cloudinary.com/dmnytetf0/image/upload/v1729235971/images_1_yfr9w4.jpg",
+      "date": "2024-10-23T15:29:05.632Z"
     }
   ]
 }

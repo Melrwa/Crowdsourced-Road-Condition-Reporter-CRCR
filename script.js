@@ -1,45 +1,3 @@
-let auth0 = null; // Global variable for Auth0 client
-
-// Initialize the Auth0 client
-const initAuth0 = async () => {
-  auth0 = await createAuth0Client({
-    domain: 'dev-otmijyoitiphecce.eu.auth0.com',
-    client_id: 'Ek7z8cPgKHVIt4BZHcPGk7oyRxLjt6Lx',
-    cacheLocation: 'localstorage', // Optional for session persistence
-  });
-
-  // Handle login callback if redirected after authentication
-  if (window.location.search.includes('code=')) {
-    await auth0.handleRedirectCallback();
-    window.history.replaceState({}, document.title, '/'); // Clean up URL after redirect
-  }
-
-  // Check if the user is already authenticated
-  const isAuthenticated = await auth0.isAuthenticated();
-  if (isAuthenticated) {
-    const user = await auth0.getUser();
-    document.getElementById('profile').textContent = JSON.stringify(user);
-  }
-};
-
-// Call initAuth0 when the window loads
-window.onload = () => {
-  initAuth0();
-};
-
-// Add login and logout event listeners
-document.getElementById('login').addEventListener('click', async () => {
-  await auth0.loginWithRedirect({
-    redirect_uri: window.location.origin
-  });
-});
-
-document.getElementById('logout').addEventListener('click', () => {
-  auth0.logout({
-    returnTo: window.location.origin
-  });
-});
-
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('road-form');
@@ -223,12 +181,14 @@ document.addEventListener('DOMContentLoaded', () => {
         method: 'DELETE'
       })
       .then(() => {
-        roadsData = roadsData.filter(road => road.id !== roadId); // Remove from local data
-        displayRoads(roadsData); // Redisplay roads without the deleted one
+        // Remove the road from the local data array
+        roadsData = roadsData.filter(road => road.id !== roadId);
+        displayRoads(roadsData); // Redisplay the remaining roads
       });
     }
   }
 
-  // Fetch the roads when the page loads
+  // Fetch and display roads on page load
   fetchAndDisplayRoads();
 });
+
